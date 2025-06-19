@@ -469,7 +469,7 @@ public sealed partial class SunriseCCVars : CVars
     /// Соотношение артефактов-предметов к обычным предметам.
     /// </summary>
     public static readonly CVarDef<float> ItemToArtifactRatio =
-        CVarDef.Create("random_artifacts.ratio", 0.55f, CVar.SERVER | CVar.ARCHIVE);
+        CVarDef.Create("random_artifacts.ratio", 0.10f, CVar.SERVER | CVar.ARCHIVE);
 
     /*
      * AntiSpam params
